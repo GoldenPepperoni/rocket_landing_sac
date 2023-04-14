@@ -15,7 +15,7 @@ use_entropy: true
 target_entropy: -10.0
 
 # eval settings
-eval_num_episodes: 100
+eval_num_episodes: 10
 eval_steps_ratio: 10000
 
 # wingman required params
@@ -38,5 +38,5 @@ wandb: false
 wandb_name: ''
 wandb_notes: ''
 wandb_id: ''
-wandb_entity: 'jjshoots'
-wandb_project: 'CCGE2_oracle_search'
+wandb_entity: 'jimwong'
+wandb_project: 'RocketProject'
